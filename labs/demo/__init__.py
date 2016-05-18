@@ -16,5 +16,10 @@ my_string = "aaa"
 
 
 #jasdgnsadojgnsdgn
-a=range(10)
-print a[2:-1:2]
+#a=range(10)
+#print a[2:-1:2]
+
+def my_function(a,b,c,d=10):
+	print locals()
+
+my_function(1,2, c='test')
